@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cart{
+    position: relative;
+}
+#content{
+    position: absolute;
+    visibility: hidden;
+    width: 400px;
+    height: 100px;
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+.div1:hover #content{
+    visibility: visible;
+}
+li{
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: brown;
+    color: gray;
+}
+.aa{
+    padding: 20px 0px;
+}
+img{
+    height: 400px;
+}
+.an{
+    animation-name: an;
+    animation-duration: 1s;
+    animation-iteration-count: calc(1);
+    position:absolute;
+    padding: 60px 0px;
+    text-align: center;
+}
+@keyframes an{
+    0%{
+        top: 0px; 
+        color: aqua;
+        text-align: center;
+    }
+    100%{
+        top:100px ;
+      color: rgb(153, 151, 148);
+      text-align: center;
+
+    }
+}
